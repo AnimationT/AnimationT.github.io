@@ -9,10 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css">             
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>             
 </head>
 <body>
     <center>
+        <div id="choose">
         <div id="pewdiepie" class="channel">
             <p>PewDiePie</p>
             <img id="pewdImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_97VQoY4s4VdVlm_oxrKVvZctgOpeowPzAtLLhFjGdJI0rBmhHkfg_u5KCZqc8J4ETM&usqp=CAU" alt="pewdImg">
@@ -27,7 +29,15 @@
             <br/>
             <div class="odometer" id="tSerNumb"></div>
         </div>
-        <p id="instruct">(Click the channnel name with the border).</p>
+        <p id="instruct">(Click the channnel name with the border to choose who your playing with).</p>
+    </div>
+        <div id="pewdGame" class="game">
+            <div class="reminder">Playing as PewDiePie</div>
+        </div>
+        <div id="tSerGame" class="game">
+            <div class="reminder">Playing as T-Series</div>
+        </div>
+        
     </center>
     <script src="script.js"></script> 
 </body>

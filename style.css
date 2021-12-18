@@ -37,3 +37,7 @@ html{
     font-size: 60px;
     font-family: 'Roboto', sans-serif;
 }
+
+.game{
+    display: none;
+}
