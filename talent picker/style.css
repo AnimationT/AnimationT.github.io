@@ -1,0 +1,18 @@
+html{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.white-square{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 155px;
+    right: 590px;
+}
+
+#talentText{
+    font-size: 20px;
+    position: relative;
+    top: -290px;
+}
