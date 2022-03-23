@@ -8,6 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.css">
     <link rel="stylesheet" href="//fonts.cdnfonts.com/css/cubicfive">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <style>
         *{
             font-family: 'CubicFive10', sans-serif;                          
@@ -41,14 +42,23 @@
         🅰🅽🅸🅼🅰🆃🅸🅾🅽🆃
         <div id="numb" class="odometer">0000</div>
         <div id="options">
-            <text id="option1">LiveCountsEdit(Coming Soon)</text>
-            <text id="option2">RPS(Coming Soon)</text>
+            <a id="option1">Talent Picker</a>
+            <p id="option2">LiveCountsEdit(Coming Soon)</p>
+            <a  id="option3">Rock Paper Scissors(Unfinished)</a>
         </div>
     </center>
     <script>
         setTimeout(() => {
             numb.innerHTML = 1361;
         }, 1000);
+
+        $("#option1").click(function() {
+            window.location = "/talent picker/index.html"
+        });
+
+        $("#option3").click(function() {
+            window.location = "/rps/index.html"
+        });
     </script>
 </body>
 </html>
